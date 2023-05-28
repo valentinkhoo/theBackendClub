@@ -2,3 +2,4 @@
 myvirtualenvironment
 .env
 ESGAPP-349d906f.json
+*.pyc
