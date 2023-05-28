@@ -33,6 +33,10 @@ sgid_client = SgidClient(
     redirect_uri="http://localhost:5001/api/redirect",
 )
 
+#create default root page to show hello world
+@app.route('/')
+def hello_world():
+    return 'Hello world!'
 
 @app.route("/api/auth-url")
 def get_auth_url():
