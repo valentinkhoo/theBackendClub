@@ -29,7 +29,7 @@ sgid_client = SgidClient(
     client_id=os.getenv("SGID_CLIENT_ID"),
     client_secret=os.getenv("SGID_CLIENT_SECRET"),
     private_key=os.getenv("SGID_PRIVATE_KEY"),
-    redirect_uri="http://127.0.0.1:5000/api/redirect",
+    redirect_uri="http://127.0.0.1:3000/api/redirect",
 )
 
 #create default root page to show hello world
